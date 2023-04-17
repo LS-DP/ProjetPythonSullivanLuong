@@ -17,7 +17,7 @@ def main():
 	t2 = Task("T2", runT2, ["M1"], ["M4"])	
 	t3 = Task("T3", runT3, ["M3", "M4"], ["M1"])	
 
-	print("---------Task System valide--------------------")
+	print("Test de lancement")
 	ts = TaskSystem([t1, t2, t3], {"T1": [], "T2": ["T1"], "T3": ["T2"]})
 
 	ts.run()
