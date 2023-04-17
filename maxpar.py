@@ -137,7 +137,7 @@ class TaskSystem:
                           
 
   
-  
+  '''
   def run(self):
       print("lancement séquentiel")
       self.runSeq()
@@ -145,7 +145,7 @@ class TaskSystem:
       print("lancement parallèle")
       self.run()
       print("Fin run")
-      
+ '''
 
   
         
